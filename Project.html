@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarCarePro | Car Care Products</title>
+    <link rel="stylesheet" href="project.css">
+    <!-- Linking Font Awesome for Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img width="150" src="Images/logo.png" alt="CarCarePro Logo">
+            <h1>CarCarePro</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <a href="https://wa.me/923174553261" target="_blank"><i class="fab fa-whatsapp what1"></i></a>
+            <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram inst1"></i></a>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h2>Keep Your Car Looking Brand New</h2>
+            <p>Premium products for ultimate car care</p>
+            <a href="#products" class="cta-btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+           <div class="product-card" data-product-id="1">
+                <img src="Images/product1WWP.jpg" alt="Car Shampoo">
+                <h3>Car Shampoo</h3>
+                <p>Perfect for a deep clean, leaving your car spotless.</p>
+                <button class="buy-btn"><a href="product.html?id=1">Buy Now</a></button>
+            </div> 
+            <div class="product-card" data-product-id="2">
+                <img src="Images/product2TG.jpg" alt="Tire Cleaner">
+                <h3>Tire Cleaner</h3>
+                <p>Restores your tires to a shiny, like-new finish,UV Protection.</p>
+                <button class="buy-btn"><a href="product.html?id=2">Buy Now</a></button>
+            </div>
+            <div class="product-card" data-product-id="3">
+                <img src="Images/product3CIC.jpg" alt="Interior Cleaner">
+                <h3>Interior Cleaner</h3>
+                <p>Keep your car's interior looking pristine and fresh.</p>
+                <button class="buy-btn"><a href="product.html?id=3">Buy Now</a></button>
+            </div>
+            <div class="product-card" data-product-id="4">
+                <img src="Images/product4WSW.jpg" alt="Wind sheild washer">
+                <h3>Wind sheild washer</h3>
+                <p>Elevate Your Ride: 3M Wash-Wax-Protect – Shine Brighter, Last Longer.</p>
+                <button class="buy-btn"><a href="product.html?id=4">Buy Now</a></button>
+            </div>
+            <div class="product-card" data-product-id="5">
+                <img src="Images/product5HCR.jpg" alt="Headlight cleaner & Restorer">
+                <h3>Headlight cleaner & Restorer</h3>
+                <p>Brighten Your Vision, Safeguard Your Drive.</p>
+                <button class="buy-btn"><a href="product.html?id=5">Buy Now</a></button>
+            </div>
+            <div class="product-card" data-product-id="6">
+                <img src="Images/product6CBP.jpg" alt="Quick Car Body Polish">
+                <h3>Quick Car Body Polish</h3>
+                <p>Trusted Shine with Carnauba Wax Protection – Your Car's Ultimate Glow.</p>
+                <button class="buy-btn"><a href="product.html?id=6">Buy Now</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At CarCarePro, we understand that your car is more than just a vehicle — it's an investment. Our products are
+            designed to keep your car looking great, inside and out. We provide only the best quality products to ensure
+            long-lasting care and protection for your car.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button id="sub-btn" type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CarCarePro. All Rights Reserved.</p>
+        <p>This site is design and developed by S.N.T</p>
+    </footer>
+
+</body>
+
+</html>
